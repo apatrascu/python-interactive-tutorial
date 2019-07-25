@@ -21,13 +21,13 @@
     <link rel="stylesheet" type="text/css" href="/static/css/learnpython.css"/>
 {#    <script src="/static/js/jquery.min.js"></script>#}
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-3723950136133694",
-              enable_page_level_ads: true
-         });
-    </script>
+{#    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>#}
+{#    <script>#}
+{#         (adsbygoogle = window.adsbygoogle || []).push({#}
+{#              google_ad_client: "ca-pub-3723950136133694",#}
+{#              enable_page_level_ads: true#}
+{#         });#}
+{#    </script>#}
 </head>
 <body>
 
@@ -35,7 +35,8 @@
 
     <div class="container">
     <a class="navbar-brand" href="/">
-        <img src="{{ domain_data.logo }}" style="height: 24px;"/>
+{#        <img src="{{ domain_data.logo }}" style="height: 24px;"/>#}
+        <img src="https://www.rinftech.com/wp-content/themes/rinf-tech/images/logo2.svg" style="height: 40px;"/>
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -54,17 +55,17 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
 
-            <li class="nav-item mr-sm-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="more-langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    More Languages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="more-langs">
-
-                    {% for domain, data in all_data.items() %}
-                        <a class="dropdown-item{% if domain_data.namespace == domain %} disabled{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a>
-                    {% endfor %}
-
-                </div>
+{#            <li class="nav-item mr-sm-2 dropdown">#}
+{#                <a class="nav-link dropdown-toggle" href="#" id="more-langs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">#}
+{#                    More Languages#}
+{#                </a>#}
+{#                <div class="dropdown-menu" aria-labelledby="more-langs">#}
+{##}
+{#                    {% for domain, data in all_data.items() %}#}
+{#                        <a class="dropdown-item{% if domain_data.namespace == domain %} disabled{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a>#}
+{#                    {% endfor %}#}
+{##}
+{#                </div>#}
 
         {#
             <li class="nav-item mr-sm-2 dropdown">
@@ -97,16 +98,16 @@
         </ul>
 
         <ul class="nav nav-pills mr-sm-2 mb-2">
-        {% for language in languages %}
-            <li {% if language_code == language %}class="active"{% endif %}><a href="/{{ language }}/"><img src="/static/img/flags/{{ language }}.png"/></a></li>
-        {% endfor %}
+{#        {% for language in languages %}#}
+{#            <li {% if language_code == language %}class="active"{% endif %}><a href="/{{ language }}/"><img src="/static/img/flags/{{ language }}.png"/></a></li>#}
+{#        {% endfor %}#}
         </ul>
 
         <ul class="navbar-nav">
 
             <li class="nav-item">
-                <a class="github-button" href="https://github.com/ronreiter/interactive-tutorials" data-icon="octicon-star" aria-label="Star ronreiter/interactive-tutorials on GitHub">Star</a>
-                <a class="github-button" href="https://github.com/ronreiter/interactive-tutorials/fork" data-icon="octicon-repo-forked" aria-label="Fork ronreiter/interactive-tutorials on GitHub">Fork</a>
+{#                <a class="github-button" href="https://github.com/ronreiter/interactive-tutorials" data-icon="octicon-star" aria-label="Star ronreiter/interactive-tutorials on GitHub">Star</a>#}
+{#                <a class="github-button" href="https://github.com/ronreiter/interactive-tutorials/fork" data-icon="octicon-repo-forked" aria-label="Fork ronreiter/interactive-tutorials on GitHub">Fork</a>#}
             </li>
 
 
@@ -122,9 +123,9 @@
 
     <div class="container">
         <ul class="navbar-nav mr-auto">
-            {% for domain, data in all_data.items() %}
-                <li class="nav-item"><a class="nav-link{% if domain_data.namespace == domain %} active{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a></li>
-            {% endfor %}
+{#            {% for domain, data in all_data.items() %}#}
+{#                <li class="nav-item"><a class="nav-link{% if domain_data.namespace == domain %} active{% endif %}" href="{{ data.full_url }}">{{ data.language_uppercase }}</a></li>#}
+{#            {% endfor %}#}
         </ul>
 
     </div>
