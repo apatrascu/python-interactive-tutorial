@@ -1,6 +1,7 @@
 #!/bin/sh
 
 VENV_DIR=learnpython_env
+PORT="${1:-5000}"
 
 if [ -d "$VENV_DIR" ]; then
     . learnpython_env/bin/activate
@@ -10,4 +11,4 @@ else
     python -m pip install -r requirements.txt
 fi
 
-python main.py -d learnpython.org -p 5000
+python main.py -d learnpython.org -p $PORT
