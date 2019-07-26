@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
 VENV_DIR=learnpython_env
 
 if [ -d "$VENV_DIR" ]; then
-    source learnpython_env/bin/activate
+    . learnpython_env/bin/activate
 else
     virtualenv $VENV_DIR
-    source $VENV_DIR/bin/activate
+    . $VENV_DIR/bin/activate
     python -m pip install -r requirements.txt
 fi
 
