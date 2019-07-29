@@ -226,6 +226,7 @@ def get_languages():
 
 
 def get_host():
+    return "learnpython.org"
     if is_development_mode():
         return current_domain
 
@@ -387,4 +388,4 @@ def robots():
 
 if __name__ == "__main__":
     logging.info("listening on port %s", args.port)
-    app.run(debug=True, port=args.port)
+    app.run(debug=True, port=args.port, host="0.0.0.0")
