@@ -6,7 +6,7 @@ Whether you are an experienced programmer or not, this website is intended for e
 
 
 ### Requirements
-* Working account on https://www.pythonanywhere.com/ Don't worry, it's free :)
+* Working account on [PythonAnywhere](https://www.pythonanywhere.com/) Don't worry, it's free :)
 * Add the following as teacher to help you debug code: `palecsandru` by going into the following:
   * Log in
   * Click on `Account` (top right)
