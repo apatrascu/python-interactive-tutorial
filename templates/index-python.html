@@ -13,8 +13,8 @@
     <script src="/static/js/learnpython.js"></script>
 {% endblock %}
 
-{% block title %}{% if tutorial_page %}{{ page_title }} - {% endif %}Learn {{ domain_data.language_uppercase }} - Free Interactive {{ domain_data.language_uppercase }} Tutorial{% endblock %}
-{% block ogtitle %}{% if tutorial_page %}{{ page_title }} - {% endif %}Learn {{ domain_data.language_uppercase }} - Free Interactive {{ domain_data.language_uppercase }} Tutorial{% endblock %}
+{% block title %}{% if tutorial_page %}{{ page_title }} - {% endif %}Interactive {{ domain_data.language_uppercase }} Tutorial{% endblock %}
+{% block ogtitle %}{% if tutorial_page %}{{ page_title }} - {% endif %}Interactive {{ domain_data.language_uppercase }} Tutorial{% endblock %}
 {% block ogurl %}{{ domain_data.full_url }}{% if tutorial_page %}/{{ path }}{% endif %}{% endblock %}
 
 {% block content %}

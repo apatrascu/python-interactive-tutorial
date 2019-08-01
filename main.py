@@ -347,7 +347,7 @@ def index(title, language="en"):
     domain_data["language_code"] = language
 
     if request.method == "GET":
-        title_suffix = "Learn %s - Free Interactive %s Tutorial" % (domain_data["language_uppercase"], domain_data["language_uppercase"])
+        title_suffix = "Interactive %s Tutorial" % (domain_data["language_uppercase"])
         html_title = "%s - %s" % (title.replace("_", " "), title_suffix) if title != "Welcome" else title_suffix
 
         if not "uid" in session:
