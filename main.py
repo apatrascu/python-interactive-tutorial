@@ -26,6 +26,7 @@ sections = re.compile(r"Tutorial\n[=\-]+\n+(.*)\n*Tutorial Code\n[=\-]+\n+(.*)\n
 WIKI_WORD_PATTERN = re.compile('\[\[([^]|]+\|)?([^]]+)\]\]')
 
 current_domain = constants.LEARNPYTHON_DOMAIN
+port = 5000
 
 if __name__ == '__main__':
     import argparse
@@ -35,7 +36,7 @@ if __name__ == '__main__':
         "--domain",
         help="Default domain when running in development mode",
         default=constants.LEARNPYTHON_DOMAIN,
-        required=True,
+        #required=True,
         choices=constants.DOMAIN_DATA.keys()
     )
 
@@ -43,6 +44,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     current_domain = args.domain
+    port = args.port
 
 LANGUAGES = {
     "en": "English",
@@ -388,4 +390,4 @@ def robots():
 
 if __name__ == "__main__":
     logging.info("listening on port %s", args.port)
-    app.run(debug=True, port=args.port, host="0.0.0.0")
+    app.run(debug=True, port=port, host="0.0.0.0")

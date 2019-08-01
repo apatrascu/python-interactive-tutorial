@@ -10,4 +10,4 @@ else
     python -m pip install -r requirements.txt
 fi
 
-python main.py -d learnpython.org -p 5000
+python main.py #-d learnpython.org -p 5000
