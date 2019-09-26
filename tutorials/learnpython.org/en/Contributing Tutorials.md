@@ -3,7 +3,7 @@ Contributing Tutorials
 
 To contribute tutorials, simply fork the following repository:
 
-[[https://github.com/ronreiter/interactive-tutorials]]
+[[https://github.com/apatrascu/python-interactive-tutorial]]
 
 Then you may add or edit tutorials, and then send me a pull request.
 
