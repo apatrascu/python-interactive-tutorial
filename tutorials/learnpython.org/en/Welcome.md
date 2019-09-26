@@ -16,7 +16,6 @@ Whether you are an experienced programmer or not, this website is intended for e
 
 
 ### Learn the Basics
-
 - [[Hello, World!]]
 - [[Variables and Types]]
 - [[Lists]]
@@ -30,8 +29,8 @@ Whether you are an experienced programmer or not, this website is intended for e
 - [[Dictionaries]]
 - [[Modules and Packages]]
 
-### Advanced Tutorials
 
+### Advanced Tutorials
 - [[Generators]]
 - [[List Comprehensions]]
 - [[Multiple Function Arguments]]
@@ -45,18 +44,24 @@ Whether you are an experienced programmer or not, this website is intended for e
 - [[Decorators]]
 - [[Map, Filter, Reduce]]
 
-<!--
+
 ### Data Science Tutorials
 - [[Numpy Arrays]]
 - [[Pandas Basics]]
--->
+
+
+### Other Python Tutorials
+- Django
+  - [Quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/)
+  - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)
+  - [Writing your first Django app, part 2](https://docs.djangoproject.com/en/2.2/intro/tutorial02/)
+  - [Writing your first Django app, part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)
+  - [Writing your first Django app, part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/)
+  - [Writing your first Django app, part 5](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)
+  - [Writing your first Django app, part 6](https://docs.djangoproject.com/en/2.2/intro/tutorial06/)
+  - [Writing your first Django app, part 7](https://docs.djangoproject.com/en/2.2/intro/tutorial07/)
 
 <!--
-### Other Python Tutorials
-
-- [DataCamp](https://www.datacamp.com/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials) has tons of great interactive [Python Tutorials](https://www.datacamp.com/courses/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials) covering data manipulation, data visualization, statistics, machine learning, and more
-- Read [Python Tutorials and References](http://www.afterhoursprogramming.com/index.php?article=181) course from After Hours Programming
-
 ### Contributing Tutorials
 
 Read more here: [[Contributing Tutorials]]
