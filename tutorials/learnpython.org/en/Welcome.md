@@ -11,6 +11,7 @@ Whether you are an experienced programmer or not, this website is intended for e
 * Add the following as teacher to help you debug code: `palecsandru`
  
 To add a teacher:
+
 * Log in
 * Click on `Account` (top right)
 * Click on `Teacher` tab
