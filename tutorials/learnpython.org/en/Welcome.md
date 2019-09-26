@@ -8,11 +8,13 @@ Whether you are an experienced programmer or not, this website is intended for e
 ### Requirements
 * Working account on [PythonAnywhere](https://www.pythonanywhere.com/) Don't worry, it's free :)
 * Create your username as `firstnamelastname`
-* Add the following as teacher to help you debug code: `palecsandru` by going into the following:
-  * Log in
-  * Click on `Account` (top right)
-  * Click on `Teacher` tab
-  * Click on `Enter your teacher's name`, write `palecsandru` and hit ENTER
+* Add the following as teacher to help you debug code: `palecsandru`
+ 
+To add a teacher:
+* Log in
+* Click on `Account` (top right)
+* Click on `Teacher` tab
+* Click on `Enter your teacher's name`, write `palecsandru` and hit ENTER
 
 
 ### Learn the Basics
@@ -50,19 +52,18 @@ Whether you are an experienced programmer or not, this website is intended for e
 - [[Pandas Basics]]
 
 
-### Other Python Tutorials
-- Django
-  - [Quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/)
-  - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)
-  - [Writing your first Django app, part 2](https://docs.djangoproject.com/en/2.2/intro/tutorial02/)
-  - [Writing your first Django app, part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)
-  - [Writing your first Django app, part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/)
-  - [Writing your first Django app, part 5](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)
-  - [Writing your first Django app, part 6](https://docs.djangoproject.com/en/2.2/intro/tutorial06/)
-  - [Writing your first Django app, part 7](https://docs.djangoproject.com/en/2.2/intro/tutorial07/)
+### Django Tutorials
+- [Quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/)
+- [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)
+- [Writing your first Django app, part 2](https://docs.djangoproject.com/en/2.2/intro/tutorial02/)
+- [Writing your first Django app, part 3](https://docs.djangoproject.com/en/2.2/intro/tutorial03/)
+- [Writing your first Django app, part 4](https://docs.djangoproject.com/en/2.2/intro/tutorial04/)
+- [Writing your first Django app, part 5](https://docs.djangoproject.com/en/2.2/intro/tutorial05/)
+- [Writing your first Django app, part 6](https://docs.djangoproject.com/en/2.2/intro/tutorial06/)
+- [Writing your first Django app, part 7](https://docs.djangoproject.com/en/2.2/intro/tutorial07/)
 
-<!--
+
 ### Contributing Tutorials
 
 Read more here: [[Contributing Tutorials]]
--->
+
